@@ -1,0 +1,17 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -96 -72 128 72
+TEXT -88 -2 Left 2 DC Motor Model 4
+WINDOW 0 16 -72 Bottom 2
+PIN -96 -48 LEFT 8
+PINATTR PinName +DC
+PINATTR SpiceOrder 1
+PIN -96 48 LEFT 8
+PINATTR PinName -DC
+PINATTR SpiceOrder 2
+PIN 128 48 RIGHT 8
+PINATTR PinName enc
+PINATTR SpiceOrder 3
+PIN 128 -48 RIGHT 8
+PINATTR PinName omega
+PINATTR SpiceOrder 4
